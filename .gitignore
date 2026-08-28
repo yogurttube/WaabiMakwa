@@ -361,3 +361,50 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ================================
+# Unreal Engine generated files
+# ================================
+
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# ================================
+# Plugin generated files
+# ================================
+
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# ================================
+# Visual Studio
+# ================================
+
+.vs/
+*.sln
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# ================================
+# JetBrains Rider
+# ================================
+
+.idea/
+
+# ================================
+# Windows junk
+# ================================
+
+Thumbs.db
+Desktop.ini
+
+# ================================
+# Packaged game output
+# ================================
+
+Builds/
+StagedBuilds/
